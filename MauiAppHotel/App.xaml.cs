@@ -5,7 +5,7 @@
         public App()
         {
             InitializeComponent();
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new Views.ContratacaoHospedagem());
 
         }
 
@@ -14,7 +14,7 @@
             var window = base.CreateWindow(activationState);
 
             window.Width = 400;
-            window.Height = 600;
+            window.Height = 700;
 
             return window;
         }
