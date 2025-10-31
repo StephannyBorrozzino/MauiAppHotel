@@ -33,7 +33,7 @@
             </VerticalStackLayout>
         </Frame>
 
-        <Button Text="Informações sobre" 
+        <Button Text="Voltar" 
             BackgroundColor="{StaticResource Gray500}"
             Clicked="Button_voltarSobre"/>
 
