@@ -73,7 +73,7 @@
                                FontSize="Subtitle"
                                TextColor="{StaticResource Primary}"/>
 
-                        <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+                        <HorizontalStackLayout HorizontalOptions="CenterAndExpand" >
                             <Label Text="Check-in:" />
                             <DatePicker x:Name="dtpck_checkin"
                                         DateSelected="dtpck_checkin_DateSelected"
